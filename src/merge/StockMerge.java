@@ -17,7 +17,9 @@ public class StockMerge {
         System.out.println(result);
     }
 
-    //need a function to get delta of Array (stock price delta)
+    /**
+     * need a function to get delta of Array (stock price delta)
+     * */
 
     public static int[] delta_arr(int []arr){
         int j = 0;
