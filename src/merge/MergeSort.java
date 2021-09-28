@@ -56,6 +56,8 @@ public class MergeSort {
             temp[t++] = arr[j++];
         }
         t=0;
+
+        //change the raw Array's value ( it 's ok in java ！）
         while ( left <= right){
             arr [left++] =temp [t++];
         }
